@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 336, y: 272}
   m_MaxSize: {x: 14006, y: 10022}
   vertical: 0
-  controlID: 40
+  controlID: 63
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -166,7 +166,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 494}
   m_MaxSize: {x: 18008, y: 14044}
   vertical: 0
-  controlID: 99
+  controlID: 61
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -191,7 +191,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 494}
   m_MaxSize: {x: 14006, y: 14044}
   vertical: 1
-  controlID: 100
+  controlID: 62
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -216,7 +216,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 222}
   m_MaxSize: {x: 8006, y: 4022}
   vertical: 0
-  controlID: 101
+  controlID: 17
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -352,7 +352,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -6692
+  m_LastSelectedObjectID: 11538
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -463,9 +463,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: f0faffff
-      m_LastClickedID: -1296
-      m_ExpandedIDs: 8efbffff
+      m_SelectedIDs: 122d0000
+      m_LastClickedID: 11538
+      m_ExpandedIDs: 8efbffff2c2d0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -525,9 +525,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.37093595, y: -0.08956483, z: -9.247426}
+    m_Target: {x: -0.062414587, y: -0.032347634, z: -2.8951693}
     speed: 2
-    m_Value: {x: 0.37093595, y: -0.08956483, z: -9.247426}
+    m_Value: {x: -0.062414587, y: -0.032347634, z: -2.8951693}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -560,9 +560,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 12.300543
+    m_Target: 22
     speed: 2
-    m_Value: 12.300543
+    m_Value: 22
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -644,14 +644,14 @@ MonoBehaviour:
     - {fileID: -720155129503672190, guid: 4733ca295a61f2a46befbb85857d90d6, type: 2}
     - {fileID: -4970197867670482698, guid: 251865e8176a5d540af35d2580072fb6, type: 2}
     m_ValueSerializationHelper:
-    - e00: 1
+    - e00: 0.22947368
       e01: 0
       e02: 0
-      e03: -236
+      e03: 3.5263214
       e10: 0
-      e11: 1
+      e11: 0.22947368
       e12: 0
-      e13: 53
+      e13: 124.05263
       e20: 0
       e21: 0
       e22: 1
@@ -660,14 +660,14 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
-    - e00: 0.8072599
+    - e00: 0.23956044
       e01: 0
       e02: 0
-      e03: -172.83856
+      e03: 3.0219803
       e10: 0
-      e11: 0.8072599
+      e11: 0.23956044
       e12: 0
-      e13: 80.78726
+      e13: 123.28298
       e20: 0
       e21: 0
       e22: 1
@@ -677,10 +677,10 @@ MonoBehaviour:
       e32: 0
       e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: 251865e8176a5d540af35d2580072fb6,
+  m_AnimatorController: {fileID: 9100000, guid: 4733ca295a61f2a46befbb85857d90d6,
     type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: -4970197867670482698, guid: 251865e8176a5d540af35d2580072fb6,
+  - m_Target: {fileID: -720155129503672190, guid: 4733ca295a61f2a46befbb85857d90d6,
       type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
@@ -732,19 +732,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Animations
+    - Assets/Resources
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Animations
+  - Assets/Resources
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\kani3\Unity-RhythmGamePractice\RhythmGame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 542c0000
-    m_LastClickedID: 11348
+    m_SelectedIDs: d42e0000
+    m_LastClickedID: 11988
     m_ExpandedIDs: 000000006829000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -817,7 +817,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 13}
+      m_ClientGUIView: {fileID: 12}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
