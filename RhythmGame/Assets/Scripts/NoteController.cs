@@ -53,7 +53,7 @@ public class NoteController : MonoBehaviour
     void Start()
     {
         noteObjectPooler = gameObject.GetComponent<ObjectPooler>();
-        TextAsset textAsset = Resources.Load <TextAsset>("Beats/"+GameManager.instance.music);
+        TextAsset textAsset = Resources.Load<TextAsset>("Beats/" + PlayerInformation.selectedMusic);
         StringReader reader = new StringReader(textAsset.text);
         musicTitle = reader.ReadLine();
         musicArtist = reader.ReadLine();

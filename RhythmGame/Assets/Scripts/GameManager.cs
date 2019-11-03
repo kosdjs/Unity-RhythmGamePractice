@@ -35,13 +35,12 @@ public class GameManager : MonoBehaviour
     private SpriteRenderer[] trailSpriteRenderers;
 
     private AudioSource audioSource;
-    public string music = "1";
 
     public bool autoPerfect;
 
     void MusicStart()
     {
-        AudioClip audioClip = Resources.Load<AudioClip>("Beats/" + music);
+        AudioClip audioClip = Resources.Load<AudioClip>("Beats/" + PlayerInformation.selectedMusic);
         audioSource = GetComponent<AudioSource>();
         audioSource.clip = audioClip;
         audioSource.Play();

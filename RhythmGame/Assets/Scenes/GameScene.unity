@@ -1968,14 +1968,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   noteSpeed: 0.1
   scoreUI: {fileID: 537670021}
+  score: 0
   comboUI: {fileID: 1271659762}
+  maxCombo: 0
   judgeUI: {fileID: 1911745119}
   trails:
   - {fileID: 1025265528}
   - {fileID: 598152839}
   - {fileID: 1669710256}
   - {fileID: 696391524}
-  music: 1
+  music: 2
   autoPerfect: 1
 --- !u!4 &1327189971
 Transform:
