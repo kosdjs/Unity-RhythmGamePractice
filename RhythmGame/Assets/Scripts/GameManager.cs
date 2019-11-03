@@ -36,6 +36,8 @@ public class GameManager : MonoBehaviour
     private AudioSource audioSource;
     public string music = "1";
 
+    public bool autoPerfect;
+
     void MusicStart()
     {
         AudioClip audioClip = Resources.Load<AudioClip>("Beats/" + music);
