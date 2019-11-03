@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NoteBehaviourScript : MonoBehaviour
+public class NoteBehaviour : MonoBehaviour
 {
 
     public int noteType;

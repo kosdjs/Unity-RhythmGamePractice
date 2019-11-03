@@ -30,7 +30,7 @@ public class NoteController : MonoBehaviour
         x = obj.transform.position.x;
         z = obj.transform.position.z;
         obj.transform.position = new Vector3(x, startY, z);
-        obj.GetComponent<NoteBehaviourScript>().Initialize();
+        obj.GetComponent<NoteBehaviour>().Initialize();
         obj.SetActive(true);
     }
 
@@ -87,6 +87,10 @@ public class NoteController : MonoBehaviour
 
     void GameResult()
     {
+        PlayerInformation.maxCombo = GameManager.instance.maxCombo;
+        PlayerInformation.score = GameManager.instance.score;
+        PlayerInformation.musicTitle = musicTitle;
+        PlayerInformation.musicArtist = musicArtist;
         SceneManager.LoadScene("GameResultScene");
     }
 

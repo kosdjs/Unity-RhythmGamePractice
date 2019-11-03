@@ -16,13 +16,14 @@ public class GameManager : MonoBehaviour
     public float noteSpeed;
 
     public GameObject scoreUI;
-    private float score;
+    public float score;
     private Text scoreText;
 
     public GameObject comboUI;
     private int combo;
     private Text comboText;
     private Animator comboAnimator;
+    public int maxCombo;
 
     public enum judges { NONE = 0, BAD, GOOD, PERFECT, MISS };
     public GameObject judgeUI;
@@ -102,6 +103,8 @@ public class GameManager : MonoBehaviour
             comboText.text = "COMBO " + combo.ToString();
             comboAnimator.SetTrigger("Show");
         }
+        if (combo > maxCombo)
+            maxCombo = combo;
     }
 
     public void processJudge(judges judge, int noteType)

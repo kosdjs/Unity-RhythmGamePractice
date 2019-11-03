@@ -64,9 +64,11 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\BackgroundBehaviourScript.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
-    <Compile Include="Assets\Scripts\NoteBehaviourScript.cs" />
+    <Compile Include="Assets\Scripts\GameResultManager.cs" />
+    <Compile Include="Assets\Scripts\NoteBehaviour.cs" />
     <Compile Include="Assets\Scripts\NoteController.cs" />
     <Compile Include="Assets\Scripts\ObjectPooler.cs" />
+    <Compile Include="Assets\Scripts\PlayerInformation.cs" />
     <None Include="Assets\Resources\Beats\1.txt" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/kani3/Unity-RhythmGamePractice/RhythmGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
