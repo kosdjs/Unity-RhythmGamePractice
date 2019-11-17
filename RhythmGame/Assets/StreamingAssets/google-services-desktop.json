@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "698953782415",
+    "firebase_url": "https://unity-rhythm-game-practice.firebaseio.com",
+    "project_id": "unity-rhythm-game-practice",
+    "storage_bucket": "unity-rhythm-game-practice.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:698953782415:android:daac1c9f013dd313c58cfa",
+        "android_client_info": {
+          "package_name": "com.kosdjs.UnityRhythmGame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "698953782415-41beul3g8pb1sd4qtovo6gkkka8o7npl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-g3nEyavtnrhVyg8a0GNM1EsXBnpDpyw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "698953782415-41beul3g8pb1sd4qtovo6gkkka8o7npl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
