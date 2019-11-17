@@ -13,6 +13,8 @@ public class JoinManager : MonoBehaviour
 
     public Text messageUI;
 
+    private bool success = false;
+
     void Start()
     {
         auth = FirebaseAuth.DefaultInstance;
@@ -55,7 +57,7 @@ public class JoinManager : MonoBehaviour
             {
                 if(!task.IsCanceled && !task.IsFaulted)
                 {
-                    SceneManager.LoadScene("LoginScene");
+                    success = true;
                 }
                 else
                 {
@@ -68,5 +70,13 @@ public class JoinManager : MonoBehaviour
     public void Back()
     {
         SceneManager.LoadScene("LoginScene");
+    }
+
+    private void Update()
+    {
+        if (success)
+        {
+            Back();
+        }
     }
 }

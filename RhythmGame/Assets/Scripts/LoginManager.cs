@@ -13,10 +13,14 @@ public class LoginManager : MonoBehaviour
 
     public Text messageUI;
 
+    public GameObject activate;
+    
+    private bool success = false;
     void Start()
     {
         auth = FirebaseAuth.DefaultInstance;
         messageUI.text = "";
+        activate.SetActive(false);
     }
 
     public void Login()
@@ -30,11 +34,12 @@ public class LoginManager : MonoBehaviour
                 if(task.IsCompleted && !task.IsCanceled && !task.IsFaulted)
                 {
                     PlayerInformation.auth = auth;
-                    SceneManager.LoadScene("SongSelectScene");
+                    success = true;
                 }
                 else
                 {
                     messageUI.text = "계정을 다시 확인해주세요.";
+                    activate.SetActive(true);
                 }
             }
         );
@@ -43,5 +48,13 @@ public class LoginManager : MonoBehaviour
     public void GoToJoin()
     {
         SceneManager.LoadScene("JoinScene");
+    }
+
+    void Update()
+    {
+        if (success)
+        {
+            SceneManager.LoadScene("SongSelectScene");
+        }
     }
 }

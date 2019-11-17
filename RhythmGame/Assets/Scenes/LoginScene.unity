@@ -1272,6 +1272,7 @@ MonoBehaviour:
   emailInputField: {fileID: 889522002}
   passwordInputField: {fileID: 1288682018}
   messageUI: {fileID: 1023431958}
+  activate: {fileID: 1023431955}
 --- !u!4 &1395025609
 Transform:
   m_ObjectHideFlags: 0
