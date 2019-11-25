@@ -293,6 +293,9 @@
     <Reference Include="Firebase.Auth">
       <HintPath>C:/Users/kani3/Unity-RhythmGamePractice/RhythmGame/Assets/Firebase/Plugins/Firebase.Auth.dll</HintPath>
     </Reference>
+    <Reference Include="Firebase.Database">
+      <HintPath>C:/Users/kani3/Unity-RhythmGamePractice/RhythmGame/Assets/Firebase/Plugins/Firebase.Database.dll</HintPath>
+    </Reference>
     <Reference Include="Firebase.Platform">
       <HintPath>C:/Users/kani3/Unity-RhythmGamePractice/RhythmGame/Assets/Firebase/Plugins/Firebase.Platform.dll</HintPath>
     </Reference>
@@ -301,6 +304,9 @@
     </Reference>
     <Reference Include="Google.MiniJson">
       <HintPath>C:/Users/kani3/Unity-RhythmGamePractice/RhythmGame/Assets/Firebase/Plugins/Google.MiniJson.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Sharpen">
+      <HintPath>C:/Users/kani3/Unity-RhythmGamePractice/RhythmGame/Assets/Firebase/Plugins/Google.Sharpen.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Compat">
       <HintPath>C:/Users/kani3/Unity-RhythmGamePractice/RhythmGame/Assets/Parse/Plugins/dotNet45/Unity.Compat.dll</HintPath>
@@ -316,12 +322,6 @@
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
       <HintPath>C:/Users/kani3/Unity-RhythmGamePractice/RhythmGame/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.Sharpen">
-      <HintPath>C:/Users/kani3/Unity-RhythmGamePractice/RhythmGame/Assets/Firebase/Plugins/Google.Sharpen.dll</HintPath>
-    </Reference>
-    <Reference Include="Firebase.Database">
-      <HintPath>C:/Users/kani3/Unity-RhythmGamePractice/RhythmGame/Assets/Firebase/Plugins/Firebase.Database.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.5f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
